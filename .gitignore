@@ -13,4 +13,4 @@ hs_err_pid*
 
 #Files from Intellij Idea
 .idea/
-ChatMultiClient.iml
+*.iml

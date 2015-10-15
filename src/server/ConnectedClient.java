@@ -7,6 +7,7 @@ import java.net.Socket;
 
 /**
  * Created by samuel on 24/09/15.
+ * Updated by fabiobeneditto on 14/10/15.
  */
 public class ConnectedClient implements Runnable{
     Socket socket;
