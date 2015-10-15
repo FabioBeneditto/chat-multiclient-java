@@ -46,6 +46,13 @@ public class ConnectedClient implements Runnable{
             e.printStackTrace();
         }
     }
+    
+    /*public void refreshConnectedClients(){
+        for (ConnectedClient client : MultiUserChatServer.clients) {
+            out.println();
+            out.flush();
+        }
+    }*/
 
     public void sendMessage(String message) {
         out.println(message);
@@ -55,5 +62,6 @@ public class ConnectedClient implements Runnable{
     @Override
     public void run() {
         getMessages();
+        //refreshConnectedClients();
     }
 }
